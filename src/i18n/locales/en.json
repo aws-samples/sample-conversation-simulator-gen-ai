@@ -1,0 +1,337 @@
+{
+  "common": {
+    "actions": {
+      "text": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "submit": "Submit",
+        "search": "Search",
+        "clear": "Clear",
+        "feedback": "Feedback",
+        "more": "More",
+        "all": "All",
+        "begin": "Begin",
+        "start": "Start",
+        "end": "End",
+        "view": "View",
+        "signOut": "Sign out",
+        "add": "Add",
+        "upload": "Upload"
+      }
+    },
+    "greetings": {
+      "text": {
+        "hello": "Hello"
+      }
+    },
+    "status": {
+      "text": {
+        "pleaseWait": "Please wait",
+        "pendingInput": "Pending input",
+        "selected": "Selected",
+        "disabled": "Disabled",
+        "enabled": "Enabled"
+      }
+    },
+    "table": {
+      "text": {
+        "noMatches": "No matches", 
+        "noMatchesDescription": "We can't find a match",
+        "info": "Info"
+      }
+    },
+    "misc": {
+      "text": {
+        "no": "No",
+        "plural": "s",
+        "association": "associated with this resource",
+        "create": "Create"
+
+      }
+    }
+  },
+
+
+
+  "navigation.menu.home": "Home",
+  "navigation.menu.history": "My Presentations",
+  "navigation.menu.metrics": "Metrics",
+  "navigation.menu.logout": "Logout",
+  "navigation.modal.closeModal": "Close modal",
+  "navigation.modal.closeMenu": "Close menu",
+  "navigation.pagination.nextPage": "Next page",
+  "navigation.pagination.previousPage": "Previous page",
+  "navigation.pagination.pageLabel": "Page {{pageNumber}} of all pages",
+
+  "auth.actions.login": "Login",
+  "auth.actions.logout": "Logout",
+  "auth.actions.signUp": "Sign Up",
+  "auth.actions.forgotPassword": "Forgot Password?",
+  "auth.actions.resetPassword": "Reset Password",
+  "auth.actions.confirmSignUp": "Confirm Sign Up",
+  "auth.actions.signIn": "Sign In",
+
+
+
+  "home": {
+    "branding": {
+      "text": {
+        "welcome": "Welcome to Amazon Actor",
+        "title": "Amazon Actor",
+        "playgroundTitle": "Pitch Practicing Playground"
+      }
+    },
+    "actions": {
+      "text": {
+        "getStarted": "Get Started",
+        "createPresentation": "Create New Presentation"
+      }
+    }
+  },
+
+
+
+  "presentation.content.title": "Presentation Title",
+  "presentation.content.description": "Description",
+  "presentation.actions.create": "Create Presentation",
+  "presentation.actions.edit": "Edit Presentation",
+  "presentation.actions.delete": "Delete Presentation",
+  "presentation.actions.save": "Save Presentation",
+  "presentation.actions.present": "Start Presentation",
+  "presentation.actions.start": "Start Presentation",
+  "presentation.actions.end": "End Presentation",
+  "presentation.actions.view": "View Presentations",
+  "presentation.actions.clear": "Clear Text",
+  "presentation.actions.calibration": "Begin Calibration",
+  "presentation.content.customerResponse": "Customer Response",
+  "presentation.actions.startResponse": "Start Response",
+  "presentation.components.liveFeedSection": "Live Feed",
+  "presentation.components.clickHere": "Click Here",
+
+  "history.content.title": "My Presentations",
+  "history.status.noPresentation": "No presentations found",
+  "history.status.noPresentations": "You don't have any presentations.",
+  "history.content.created": "Created",
+  "history.content.lastModified": "Last Modified",
+  "history.content.presentationTime": "Presentation Time",
+  "history.metrics.fillerWords": "Filler Words",
+  "history.metrics.weaselWords": "Weasel Words",
+  "history.metrics.biasEmotionSpecificWords": "Bias, Emotion & Specific Words",
+  "history.metrics.eyeContact": "Eye Contact",
+  "history.metrics.speakingPacePerMin": "Speaking Pace Per Min",
+  "history": {
+    "charts": {
+      "trendStatus": {
+        "header": "Trends Info - Details",
+        "learnMore": "Learn More",
+        "serviceAvail": "Amazon Web Services publishes our most up-to-the-minute information on service availability"
+      }
+    }
+  },
+
+  "welcome.modal.title": "Amazon Actor",
+  "welcome.modal.gettingStarted": "Getting Started",
+  "welcome.modal.calibration": "Calibration",
+  "welcome.modal.calibrationText": "To calibrate the eye detection model, please click the \"Begin Calibration\" button, wait until the model has been loaded, then proceed to click the blue button at the top of the screen 10 times. Once finished, click \"Start Presentation\" to begin.",
+  "welcome.modal.metricsTitle": "Metrics",
+  "welcome.modal.metricsText": "For Eye Contact, after calibrating the model, begin your presentation by looking at the camera. The metric will start at 100% to accomodate for this. For Speaking Pace (Per Min.), the metric will update roughly every 1 minute and 20 seconds to accomodate delays and Amazon Transcribe feedback.",
+  "welcome.modal.cameraSetup": "Camera Setup",
+  "welcome.modal.cameraSetupText": "For the most accurate eye detection results, try to keep your head still and avoid moving around. Ensure that you can clearly see your eyes in the live feed (i.e. avoid a backlit background).",
+
+  "transcription.display.realTime": "Real-Time Transcription",
+  "transcription.status.audioStarted": "Audio recording started!",
+  "transcription.settings.contextualFeedback": "Contextual Feedback metrics",
+  "transcription.service.textToSpeech.synthesize": "Synthesize Speech",
+
+
+  "sentiment.options.noSentiment": "No Sentiment",
+  "sentiment.options.friendly": "Friendly",
+  "sentiment.options.neutral": "Neutral",
+  "sentiment.options.mildlyAnnoyed": "Mildly Annoyed",
+  "sentiment.options.angry": "Angry",
+
+  "presentation":{
+    "metrics": {
+      "eyeContact":{
+        "title": "Eye Contact",
+        "description": "The total percentage of time you made eye contact with the camera during your presentation.",
+        "tip": "Looking away for too long can lose that connection with your audience. Remember to practice and prepare so you can look to your audience rather than your notes while presenting.",
+        "engaged": "Engaged",
+        "distracted": "Distracted",
+        "disengaged": "Disengaged"
+      },
+      "speakingPaceRealTime": {
+        "title": "Speaking Pace (Real-Time)",
+        "description": "The average speaking pace you are speaking at across the entire presentation.",
+        "tip": "Mix it up! It is important to keep a conversational pace, but try to change your pace to emphasize points in your message and influence the emotions of your audience.",
+        "slow": "Slow",
+        "conversational": "Conversational",
+        "fast": "Fast"
+      },
+      "speakingPacePerMin": {
+        "title": "Speaking Pace (Per Min.)",
+        "description": "The pace you are currently speaking at during each minute.",
+        "tip": "Mix it up! It is important to keep a conversational pace, but try to change your pace to emphasize points in your message and influence the emotions of your audience.",
+        "slow": "Slow",
+        "conversational": "Conversational",
+        "fast": "Fast"
+      },
+      "engagement": {
+        "title": "Engagement",
+        "description": "The amount of time you since last engaged the audience (asked them a question).",
+        "tip": "Pausing during your presentation can also help prompt your audience to ask a question.",
+        "conversational": "Conversational",
+        "oneSided": "One-Sided",
+        "disengaged": "Disengaged"
+      },
+      "fillerWords": {
+        "title": "Filler Words",
+        "description": "The number of filler words (i.e. \"um\", \"like\", etc.) used in your presentation.",
+        "tip": "Instead of using a filler word to fill in gaps, take a pause instead to think about how you want to articulate your message.",
+        "prepared": "Prepared",
+        "needPractice": "Need Practice",
+        "unprepared": "Unprepared"
+      },
+      "weaselWords": {
+        "title": "Weasel Words",
+        "description": "The number of weasel and bias words used in your presentation.",
+        "tip": "Guessing and overpromising can do more harm than good when answering questions. If you are unsure about something, let your audience know and get back to them later.",
+        "prepared": "Prepared",
+        "needsPractice": "Needs Practice",
+        "unprepared": "Unprepared"
+      },
+      "biasEmotionSpec": {
+        "title": "Bias, Emotion & Specificity Words",
+        "description": "The number of bias/biased, emotional, and specific words used in your presentation.",
+        "tip": "Presenting in a neutral manner can help you avoid conveying bias and emotion, which can impact an audience's overall perspective.",
+        "prepared": "Prepared",
+        "needsPractice": "Needs Practice",
+        "unprepared": "Unprepared"
+      },
+      "overview": {
+        "description": "Viewing data over presentation",
+        "title": "Presentation Overview",
+        "totalPresentations": "Total Presentations",
+        "hoursPresented": "Hours Presented"
+      },
+      "dashboard": {
+        "title": "Metrics Dashboard",
+        "analytics": "Analytics",
+        "performance": "Performance",
+        "usage": "Usage Statistics",
+        "trendDashboard": "Metrics Trend Dashboard",
+        "realTimeAnalysis": "Real-time analysis of key presentation metrics",
+        "presentationMetrics": "Presentation Metrics",
+        "noData": "There is no data available",
+        "noMatch": "No matching data",
+        "noMatchDesc": "There is no matching data to display",
+        "clearFilter": "Clear Filter",
+        "noDataAvailable": "No data available"
+      },
+      "pace": {
+        "title": "Speaking Pace"
+      },
+      "etcTitles": {
+        "tipTitle": "Tip",
+        "descriptionTitle": "Description"
+      }
+  
+    }
+  },
+
+
+  "alerts.system.eyeDetectionLoading": "Starting eye detection model.",
+  "alerts.system.eyeDetectionLoaded": "Eye detection model loaded. Please click on the blue button below the webcam {{count}} times. You may start your presentation once finished.",
+  "alerts.system.metricsNeedImprovement": "One or more of your presentation metrics needs improvement.",
+
+  "avatar.options.defaultAvatar1": "Default Avatar 1",
+  "avatar.options.defaultAvatar2": "Default Avatar 2", 
+  "avatar.options.defaultAvatar3": "Default Avatar 3",
+  "avatar.options.defaultAvatar4": "Default Avatar 4",
+  "avatar.options.defaultAvatar5": "Default Avatar 5",
+  "avatar.options.defaultAvatar6": "Default Avatar 6",
+  "avatar.options.uploadedAvatars": "Uploaded Avatars",
+  "avatar.actions.remove": "Remove",
+  "avatar.actions.clickToStop": "Click to Stop Avatar Reaction",
+  "avatar.actions.clickToStart": "Click to Start Avatar Reaction",
+  "avatar.content.customAvatar": "Custom Avatar",
+  "avatar.content.placeholder": "placeholder",
+  "avatar.content.notFound": "not found",
+
+  "file.actions.upload": "Upload",
+  "file.content.type": "file",
+  "file.content.name": "myImage",
+
+  "dropdown": {
+    "scenarios": {
+      "options": {
+        "perfectPitch": "Perfect Pitch Gen AI",
+        "customScenario": "Custom Scenario",
+        "laDcfs": "LA DCFS",
+        "callCenter": "Call Center Customer",
+        "awsomeBuilder1": "AWSome Builder 1 (Work in Progress)",
+        "awsomeBuilder2": "AWSome Builder 2 (Work in Progress)", 
+        "awsomeBuilder3": "AWSome Builder 3 (Work in Progress)",
+        "singleLineSecurity": "Single Line Security",
+        "awsCoreMessaging": "AWS Core Messaging",
+        "riseWithSap": "RISE with SAP",
+        "riseWithSapLawrence": "RISE with SAP (Lawrence)",
+        "riseWithSapCustomer": "RISE with SAP (Customer side)",
+        "awsCoreMessagingCustomer": "AWS Core Messaging (Customer Side)",
+        "awsIntroSales": "AWS Intro Sales Call (Customer Side)"
+      }
+    }
+  },
+
+
+  "document.actions.add": "Add",
+  "document.content.newScenario": "New Scenario",
+  "document.content.describeScenario": "Describe your scenario",
+
+  "context": {
+    "modal": {
+      "actions": {
+        "editContext": "Edit Context",
+        "setCustomPrompt": "Set Custom Prompt"
+      },
+      "content": {
+        "provideInformation": "Provide more information here for the role AI Assistant will play and role you will play"
+      },
+      "form": {
+        "yourJobTitle": "Your Job Title",
+        "aiJobTitle": "AI Assistant Job Title",
+        "companyName": "AI Assistant Company Name",
+        "companyOverview": "Company Overview",
+        "companyOverviewPlaceholder": "Provide more company overview for AI assistant role-play..."
+      }
+    },
+    "user": {
+      "jobTitles": {
+        "salesperson": "Sales Person",
+        "solutionArchitect": "Solution Architect",
+        "accountManager": "Account Manager",
+        "solutionArchitectSpecialist": "Solution Architect Specialist"
+      }
+    },
+    "ai": {
+      "jobTitles": {
+        "ceo": "CEO",
+        "dataScientist": "Data Scientist",
+        "softwareEngineer": "Software Engineer",
+        "cto": "CTO",
+        "cio": "CIO",
+        "ciso": "CISO",
+        "cmo": "CMO"
+      }
+    }
+  }
+}
